@@ -13,7 +13,7 @@ public class AtvTabuadaopc2{
         for(int c=-1;c<11;c++){
             switch(o){
                 case 1:
-                    r+= n + "+" + c + "=" + (n+c) + "\n";
+                    r+= n + "+" + c + "=" + (n+c) + "\n"; //'+=' diz que 'r' recebe o valor dele somado ao próximo valor
                     break;
                 case 2:
                     r+= (n+c) + "-" + n + "=" + c + "\n";
